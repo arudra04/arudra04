@@ -1,0 +1,34 @@
+{
+	"name": "departmentSynapse",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "atnsql",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlDWTable",
+		"schema": [
+			{
+				"name": "departmentid",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "departmentname",
+				"type": "varchar"
+			},
+			{
+				"name": "groupname",
+				"type": "varchar"
+			},
+			{
+				"name": "modifieddate",
+				"type": "varchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "Table"
+		}
+	}
+}
