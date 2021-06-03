@@ -27,8 +27,7 @@
 						}
 					},
 					"sink": {
-						"type": "SqlDWSink",
-						"allowCopyCommand": true
+						"type": "SqlDWSink"
 					},
 					"enableStaging": false,
 					"translator": {
