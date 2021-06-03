@@ -36,8 +36,8 @@
 						"mappings": [
 							{
 								"source": {
-									"type": "String",
-									"ordinal": 1
+									"name": "DepartmentID",
+									"type": "String"
 								},
 								"sink": {
 									"name": "departmentid",
@@ -46,8 +46,8 @@
 							},
 							{
 								"source": {
-									"type": "String",
-									"ordinal": 2
+									"name": "Name",
+									"type": "String"
 								},
 								"sink": {
 									"name": "departmentname",
@@ -56,8 +56,8 @@
 							},
 							{
 								"source": {
-									"type": "String",
-									"ordinal": 3
+									"name": "GroupName",
+									"type": "String"
 								},
 								"sink": {
 									"name": "groupname",
@@ -66,8 +66,8 @@
 							},
 							{
 								"source": {
-									"type": "String",
-									"ordinal": 4
+									"name": "ModifiedDate",
+									"type": "String"
 								},
 								"sink": {
 									"name": "modifieddate",
