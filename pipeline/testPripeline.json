@@ -36,11 +36,11 @@
 							{
 								"source": {
 									"name": "DepartmentID",
-									"type": "Int16"
+									"type": "String"
 								},
 								"sink": {
 									"name": "departmentid",
-									"type": "Int32"
+									"type": "String"
 								}
 							},
 							{
